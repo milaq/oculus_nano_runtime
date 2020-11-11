@@ -1,9 +1,10 @@
 !include "MUI2.nsh"
 
 !define PROJECT_NAME "Oculus Nano Runtime"
+!define VERSION "1.30"
 
 Name "${PROJECT_NAME}"
-OutFile "oculus_nano_runtime.exe"
+OutFile "oculus_nano_runtime_${VERSION}.exe"
 Unicode True
 RequestExecutionLevel Admin
 InstallDir "$PROGRAMFILES64\Oculus"

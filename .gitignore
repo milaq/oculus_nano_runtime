@@ -1,0 +1,4 @@
+vendor/*
+!vendor/README.txt
+
+*.exe
